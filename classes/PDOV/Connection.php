@@ -197,7 +197,7 @@ class Connection extends \PHPixie\DB\Connection {
                 $this->vulnerable = true;
                 if ($field->getVulnerability('SQL')->isBlind()) {
                     $this->dispErrorStates[] = $this->pixie->debug->display_errors;
-                    $this->pixie->debug->display_errors = false;
+                    $this->pixie->debug->display_errors = true;
                     $this->isBlinded = true;
                     return;
                 }
