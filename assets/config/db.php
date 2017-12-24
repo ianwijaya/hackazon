@@ -5,9 +5,9 @@ return array (
     'user' => 'hackazon',
     'password' => 'default',
     'driver' => 'PDOV',
-    'connection' => 'mysql:host=10.1.1.50;port=3306;dbname=hackazon',
+    'connection' => 'mysql:host=localhost;port=3306;dbname=hackazon',
     'db' => 'hackazon',
-    'host' => '10.1.1.50',
+    'host' => 'localhost',
     'port' => '3306',
   ),
 );
